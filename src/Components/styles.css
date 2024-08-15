@@ -6,7 +6,7 @@
 }
 
 h1 {
-    color: #007bff;
+    color: #4CAF50;
     /* Primary color */
     text-align: center;
     margin-bottom: 2rem;
@@ -27,13 +27,19 @@ td {
 }
 
 th {
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: #e0f7fa;
+    color: #00796b;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 td {
     background-color: #ffffff;
+}
+
+tr:hover td {
+    background-color: #c8e6c9;
+
 }
 
 th input,
@@ -52,5 +58,5 @@ th input {
 }
 
 input::placeholder {
-    color: #6c757d;
+    color: #607d8b;
 }
